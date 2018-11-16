@@ -8,6 +8,10 @@
   		</head>
 
 	<body>
+<?php
+    include ('header.php');
+?>
+
 <table border = 1>
 
     <tr>
