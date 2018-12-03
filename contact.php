@@ -10,6 +10,7 @@
 	<body>
         <?php
             include("header.php");
+<<<<<<< HEAD
                 if (isset($_POST["envoyer"])){
                     $sep = "%-%";
                     $message = $_POST["name"].$sep.$_POST["mail"].$sep.$_POST["objet"].$sep.$_POST["message"]."\r\n";
@@ -34,5 +35,9 @@
             </form>
         </fieldset>
         
+=======
+        ?>
+    </body>
+>>>>>>> 9ac2f63c3d25a9b90a928f826a2fa7b1ec78cad3
 
 </html>

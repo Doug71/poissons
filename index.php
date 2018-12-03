@@ -11,9 +11,13 @@
         <?php
             include("header.php");
         ?>
+<<<<<<< HEAD
 		<p>Bonjour et bienvenu sur notre catalogue en ligne de Fish !</p>
 		
 		<p>vous pouvez dès à présent consulter les fiches via l'onglet "catalogue" et cliquer sur les fiches pour afficher la description mais aussi ajouter, modifier ou supprimer les fiches de Fish !</p>
+=======
+		<p>Bonjour et bienvenu sur notre catalogue en ligne de Fish, vous pouvez dès à présent consulter les fiches via l'onglet "catalogue" mais aussi ajouter, modifier ou supprimer les fiches de Fish !</p>
+>>>>>>> 9ac2f63c3d25a9b90a928f826a2fa7b1ec78cad3
     </body>
 
 </html>
