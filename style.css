@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body    
     {
         margin: 0px;
@@ -82,6 +83,53 @@ li:hover ul
         margin: 0px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
         /*z-index: 1;*/
+=======
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+nav {
+    background-color: #00000010;
+}
+ul {
+    background-color: rgba(22, 96, 255, 0.8);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li a {
+    position: relative;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #183b75;
+}
+li ul {
+    display: none;
+}
+li:hover ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-left: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+body
+    {
+    background: url("poisson.jpg") fixed no-repeat;
+>>>>>>> 6d709b9d20cc25414899a3887987a2a5daf58584
     }
 
 .tableau
@@ -107,13 +155,29 @@ th, td
         text-decoration: none;
     }
 
+<<<<<<< HEAD
+=======
+.retour
+    {
+        border: 1px black solid;
+        background-color: rgba(0,0,0,0.5);
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+
+>>>>>>> 6d709b9d20cc25414899a3887987a2a5daf58584
 .image
     {
         width: 240px;
         height: 180px;
     }
 
+<<<<<<< HEAD
 p, span
+=======
+p
+>>>>>>> 6d709b9d20cc25414899a3887987a2a5daf58584
     {
         font-size: 25px;
     }
@@ -121,7 +185,10 @@ p, span
 .h2
     {
         text-decoration: underline;
+<<<<<<< HEAD
         margin-top: 50px;
+=======
+>>>>>>> 6d709b9d20cc25414899a3887987a2a5daf58584
     }
 
 .contact
@@ -129,6 +196,7 @@ p, span
         width: 500px;
     }
 
+<<<<<<< HEAD
 #formulaire
     {
         display: flex;
@@ -206,4 +274,11 @@ a:hover
 .label
     {
         font-size: 20px;
+=======
+#contact
+    {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+>>>>>>> 6d709b9d20cc25414899a3887987a2a5daf58584
     }
