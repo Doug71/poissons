@@ -41,7 +41,7 @@
                                 fwrite($filehandle, $new_line);
                                 fclose($filehandle);
                                 echo "<span style='color: green;' class='succes'>Fiche crée avec succès !</span><br>";
-                                echo "<span style='color: green;' class='succes'>Veuillez retourner au catalogue pour consulter la fiche.</span>";
+                                echo "<span class='succes'>Veuillez retourner au catalogue pour consulter la fiche.</span>";
                             }
                         }
                     }
