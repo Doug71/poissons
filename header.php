@@ -1,5 +1,5 @@
 <header>
-    <h1>Catalogue de fish</h1>
+    <h1>Catalogue de poissons</h1>
 </header>
 <nav>
     <ul>

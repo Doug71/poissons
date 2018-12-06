@@ -3,7 +3,7 @@
 <html lang="fr">
 	<head>
   		<meta charset="utf-8">
-  		<title>Catalogue de Fish</title>
+  		<title>Index</title>
   		<link rel="stylesheet" href="style.css">
   	</head>
 
@@ -11,8 +11,11 @@
         <?php
             include("header.php");
         ?>
-		<p>Bonjour et bienvenu sur notre catalogue en ligne de Fish !</p>
-		<p>vous pouvez dès à présent consulter les fiches via l'onglet "catalogue" et cliquer sur les fiches pour afficher la description mais aussi ajouter, modifier ou supprimer les fiches de Fish !</p>
+		<p>Bonjour et bienvenu sur notre catalogue en ligne de poissons !</p>
+		<p>Ce catalogue a pour but de repertorier différentes espèces de poissons.</p>
+		<p>Vous pouvez dès à présent consulter les fiches via l'onglet "catalogue".<br>
+			Si vous cliquez sur les fiches vous avez accès à la description du poisson. Il est également possible de modifier ou supprimer les fiches<br>
+			Si vous le souhaitez vous pouver contribuer à votre tour et créer une fiche, via l'onglet "création" du menu "catalogue", c'est très simple !</p>
+		<p>Bonne découverte !</p>
     </body>
-
 </html>

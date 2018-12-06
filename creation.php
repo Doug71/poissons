@@ -3,7 +3,7 @@
     
     <head>
         <meta charset="utf-8">
-        <title>Ajouter une fiche</title>
+        <title>Création</title>
   		<link rel="stylesheet" href="style.css">
     </head>
  
@@ -40,7 +40,7 @@
                                 $new_line = $id."%-%".$_POST["nom"]."%-%".$description."%-%".$time."%-%0%-%".$_POST["resume"];
                                 fwrite($filehandle, $new_line);
                                 fclose($filehandle);
-                                echo "<span style='color: green;' class='succes'>Fiche crée avec succès !</span><br>";
+                                echo "<span class='succes' style='color: green;'>Fiche crée avec succès !</span><br>";
                                 echo "<span class='succes'>Veuillez retourner au catalogue pour consulter la fiche.</span>";
                             }
                         }

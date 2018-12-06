@@ -3,7 +3,7 @@
 <html lang="fr">
 	<head>
   		<meta charset="utf-8">
-  		<title>Catalogue de Fish</title>
+  		<title>Catalogue</title>
   		<link rel="stylesheet" href="style.css">
   	</head>
 

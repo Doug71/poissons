@@ -66,7 +66,7 @@
             $tab = explode("%-%",$chaine);
             echo "  <fieldset><legend>".$tab[1]."</legend>
                     <p>".$tab[2]."</p>
-                    <img src='images/".$tab[1]."'>
+                    <img class='image2'src='images/".$tab[1]."'>
                     <p>".$tab[5]."</p>";
                     echo "<p><form action='details.php' method='get'>
                     <input type='text' name='nom' value='".$_GET['nom']."' hidden>
@@ -76,8 +76,6 @@
                     <input type='text' name='nom' value='".$_GET['nom']."' hidden>
                     <input class='modif' type='submit' name='suppression' value='Supprimer'>
                     </form></p>";
-                    /*echo "<p><a href='details.php?nom=".$_GET['nom']."&modification=o'>Modification</a><p>";
-                    echo "<p><a href='details.php?nom=".$_GET['nom']."&suppression=o'>Suppression</a><p>";*/
         }
         
 ?>
