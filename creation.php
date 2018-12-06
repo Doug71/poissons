@@ -10,23 +10,6 @@
     <body>
         <?php
             include("header.php");
-<<<<<<< HEAD
-
-=======
-        ?>
-            <h2 class="h2">Veuillez remplir les champs ci-dessous :</h2>
-                <form name="form1" method="POST" action="" enctype="multipart/form-data" >
-                    <p>Veuillez saisir le nom de la fiche :</p>
-                    <input type="text" value="" name="nom" required>
-                    <p>Veuillez entrer une description courte du poisson :</p>
-                    <input type="text" value="" name="description" required><br><br>
-                    <input type="file" value="image" name="image" required><br><br>
-                     <p>Veuillez entrer le détail :</p>
-                    <input type="textarea" value="" name="resume" /><br><br>
-                    <input type="submit" name="submit1" value="valider">
-                </form>
-                <?php
->>>>>>> 6d709b9d20cc25414899a3887987a2a5daf58584
                     $id=1;
 
                     $handle = opendir("./fiches");
@@ -40,16 +23,11 @@
 
                     $time = date("d/m/y");
 
-<<<<<<< HEAD
-=======
-                    //$nom_fichier = "";
->>>>>>> 6d709b9d20cc25414899a3887987a2a5daf58584
                     $description = "";
                     if (isset($_POST["submit1"])){
                         $nom_fichier = $_POST["nom"].".txt";
                         $description = $_POST["description"];
                         move_uploaded_file($_FILES['image']['tmp_name'],"./images/".$_POST['nom'].".jpg");
-<<<<<<< HEAD
                         
                         $filehandle = "";
                         $new_line = "";
@@ -85,25 +63,5 @@
                         </section>';
                     }
         ?>        
-=======
-                    }
-
-                    $filehandle = "";
-                    $new_line = "";
-                    if (isset ($nom_fichier)){
-                        if (file_exists("./fiches/".$nom_fichier)) {
-                            echo "La fiche du Fish existe déjà";
-                        }
-                        else {
-                            $filehandle = fopen("./fiches/".$nom_fichier,"a");
-                            $new_line = $id."%-%".$_POST["nom"]."%-%".$description."%-%".$time."%-%0%-%".$_POST["resume"];
-                            fwrite($filehandle, $new_line);
-                            fclose($filehandle);
-                            echo "fiche crée avec succès !";
-                            echo "<br><a class='retour' href='catalogue.php'>retour</a>";
-                        }
-                    }
-                ?>          
->>>>>>> 6d709b9d20cc25414899a3887987a2a5daf58584
     </body>
  </html> 

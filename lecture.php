@@ -6,10 +6,7 @@
                             $file_handle = fopen("./fiches/$entry","r"); 
                             $line_of_text = fgets($file_handle);        // en utilisant %-% comme séparateur
                             $elements = explode("%-%",$line_of_text);   // cela remplit un tableau $elements avec une information par case (ID-Nom-Détail-[Image]-Date)
-<<<<<<< HEAD
                 
-=======
->>>>>>> 6d709b9d20cc25414899a3887987a2a5daf58584
                             if (!$elements[4]){
                                 echo "<tr>";
                             
