@@ -5,7 +5,7 @@
   		<meta charset="utf-8">
   		<title>Catalogue de Fish</title>
   		<link rel="stylesheet" href="style.css">
-  		</head>
+  	</head>
 
 	<body>
         <?php
