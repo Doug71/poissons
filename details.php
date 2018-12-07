@@ -77,8 +77,7 @@
                     echo "<img class='image2'src='images/".$tab[1]."'>";
                     echo "<p class='texte'>".$tab[5]."</p>";
                     echo "</fieldset>";
-        }
-        
-?>
+        }    
+    ?>
 </body>
 </html>

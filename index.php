@@ -18,5 +18,10 @@
 				Si vous le souhaitez vous pouver contribuer à votre tour et créer une fiche, via l'onglet "création" du menu "catalogue", c'est très simple !</p>
 			<p>Bonne découverte !</p>
 		</section>
+		<footer class="copyright">
+			<?php
+				include "copyright.php";
+			?>
+		</footer>
     </body>
 </html>

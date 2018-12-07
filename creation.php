@@ -31,11 +31,14 @@
                         
                         $filehandle = "";
                         $new_line = "";
-                        if (isset ($nom_fichier)){
-                            if (file_exists("./fiches/".$nom_fichier)) {
+                        if (ctype_alnum($_POST['nom']))
+                        {
+                            if (file_exists("./fiches/".$nom_fichier))
+                            {
                                 echo "<span style='color: red;' class='succes'>ERREUR : La fiche du Fish existe déjà !</span>";
                             }
-                            else {
+                            else
+                            {
                                 $filehandle = fopen("./fiches/".$nom_fichier,"a");
                                 $new_line = $id."%-%".$_POST["nom"]."%-%".$description."%-%".$time."%-%0%-%".$_POST["resume"];
                                 fwrite($filehandle, $new_line);
@@ -44,8 +47,29 @@
                                 echo "<span class='succes'>Veuillez retourner au catalogue pour consulter la fiche.</span>";
                             }
                         }
+                        else
+                        {
+                            echo '<span class="succes" style="color: red;">ERREUR : Le nom du fichier est incorrect (Il contient des caractères
+                            spéciaux).</span>
+                            <section class="formulaire">
+                                <h2 class="h2">Veuillez remplir les champs ci-dessous :</h2><br>
+                                <form name="form1" method="POST" action="" enctype="multipart/form-data" >
+                                    <span>Veuillez saisir le nom de la fiche :</span><br>
+                                    <input class="creation" type="text" value="" name="nom" required><br><br>
+                                    <span>Veuillez entrer une description courte du poisson :</span><br>
+                                    <input class="creation" type="text" value="" name="description" required><br><br>
+                                    <span>Veuillez sélectionner une image du poisson :</span><br>
+                                    <input class="img" type="file" value="image" name="image" required><br><br>
+                                    <span>Veuillez entrer le détail du poisson:</span><br>
+                                    <!--<input class="creation2" type="textarea" value="" name="resume"><br>-->
+                                    <textarea class="creation2" name="resume" cols="10" rows="200"></textarea><br>
+                                    <input class="valid" type="submit" name="submit1" value="valider">
+                                </form>
+                            </section>';
+                            }
                     }
-                    else {
+                    else
+                    {
                         echo '<section class="formulaire">
                             <h2 class="h2">Veuillez remplir les champs ci-dessous :</h2><br>
                                 <form name="form1" method="POST" action="" enctype="multipart/form-data" >
