@@ -64,18 +64,19 @@
             $file_handle = fopen("fiches/".$_GET['nom'].".txt","r");
             $chaine = fgets($file_handle);
             $tab = explode("%-%",$chaine);
-            echo "  <fieldset><legend>".$tab[1]."</legend>
-                    <p>".$tab[2]."</p>
-                    <img class='image2'src='images/".$tab[1]."'>
-                    <p>".$tab[5]."</p>";
-                    echo "<p><form action='details.php' method='get'>
-                    <input type='text' name='nom' value='".$_GET['nom']."' hidden>
-                    <input class='modif' type='submit' name='modification' value='Modifier'>
-                    </form>";
-                    echo "<form action='details.php?' method='get'>
-                    <input type='text' name='nom' value='".$_GET['nom']."' hidden>
-                    <input class='modif' type='submit' name='suppression' value='Supprimer'>
-                    </form></p>";
+                    echo "<fieldset><legend class='legend'>".$tab[1]."</legend>";
+                    echo "<section class='bouton'><form action='details.php' method='get'>
+                            <input type='text' name='nom' value='".$_GET['nom']."' hidden>
+                            <input class='modif' type='submit' name='modification' value='Modifier'>
+                    </form>
+                    <form action='details.php?' method='get'>
+                            <input type='text' name='nom' value='".$_GET['nom']."' hidden>
+                            <input class='modif' type='submit' name='suppression' value='Supprimer'>
+                    </form></section>";
+                    echo "<p class='texte2'>".$tab[2]."</p>";
+                    echo "<img class='image2'src='images/".$tab[1]."'>";
+                    echo "<p class='texte'>".$tab[5]."</p>";
+                    echo "</fieldset>";
         }
         
 ?>

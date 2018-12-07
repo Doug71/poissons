@@ -118,6 +118,8 @@ th, td
     {
         width: 480px;
         height: 360px;
+        float: right;
+        margin-right: 50px;
     }
 
 p, span
@@ -213,4 +215,37 @@ a:hover
 .label
     {
         font-size: 20px;
+    }
+
+.texte, .texte2
+    {
+        margin: 50px;
+        margin-right: 600px;
+        text-align: justify;
+    }
+
+.texte2
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+
+.legend
+    {
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+.bouton
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+.accueil
+    {
+        margin-left: 15px;
     }
