@@ -75,7 +75,7 @@
                             <input class='modif' type='submit' name='suppression' value='Supprimer'>
                     </form></section>";
                     echo "<p class='texte2'>".$tab[2]."</p>";
-                    echo "<img class='image2'src='images/".$tab[1]."'>";
+                    echo "<img class='image2'src='images/".$tab[1].".jpg'>";
                     echo "<p class='texte'>".$tab[5]."</p>";
                     echo "</fieldset>";
         }    
