@@ -3,12 +3,12 @@
 </header>
 <nav>
     <ul>
-        <li><a href="index.php">accueil</a></li>
-        <li><a href="catalogue.php">catalogue</a>
+        <li><a href="index.php">ACCUEIL</a></li>
+        <li><a href="catalogue.php">CATALOGUE</a>
             <ul>
-                <li><a href="creation.php">création</a></li>
+                <li><a href="creation.php">CRÉATION</a></li>
             </ul>
         </li>
-        <li><a href="contact.php">contact</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
     </ul>
 </nav>
