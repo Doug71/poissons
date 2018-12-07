@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Détails</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Détails</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <link rel="icon" type="image/png" href="images/favicon.png" /> 
+        <link rel="shortcut icon" href="timages/favicon.png" type="image/x-icon"/>
+    </head>
 <body>
 
     <?php   
