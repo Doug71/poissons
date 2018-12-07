@@ -10,7 +10,7 @@
                             if (!$elements[4]){
                                 echo "<tr>";
                             
-                                for ($i = 1; $i < 4; $i++){    
+                                for ($i = 0; $i < 4; $i++){    
                                     echo "<td><a class='lien' href='details.php?nom=".$elements[1]."'>".$elements[$i]."</a></td>";        
                                 }
                                 

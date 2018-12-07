@@ -14,6 +14,7 @@
         <section class="tableau">
             <table border = 1>
                 <tr>
+                    <th>ID</th>
                     <th>Nom</th>
                     <th>Description</th>
                     <th>Date</th>
