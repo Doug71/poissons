@@ -1,3 +1,5 @@
+Installation :
+
 Afin d'utiliser notre catalogue de fiches sur les poissons, il faudra d'abord installer un petit logiciel qui émulera un serveur WEB :
 
 Ces logiciels, suivant la plateforme, sont:
@@ -18,4 +20,26 @@ Ensuite, enregistrez vos fichiers téléchargés dans le dossier : C:\wamp\www\p
 Voilà, c'est presque fini, maintenant, il suffit d'aller sur votre navigateur préféré et de taper l'URL http://localhost/poissons
 
 
-C'est fini, apréciez votre catalogue de poissons.
+Utilisisation :
+
+Votre catalogue ce présente comme il suit :
+
+  Une barre de navigation contenant 
+            
+            1.Accueil
+                
+                Un petit résumé explicatif de ce catalogue.
+                
+            2.Catalogue =>Création
+              
+                Vous trouverez sur catalogue toutes les fiches présentes et actives du catalogue. Pour accéder aux détails d'une fiche,                 il vous faudra cliquer dessus.
+                
+                Dans la partie Création, vous pourrez créer une nouvelle fiche avec ses description et une photo.
+                
+            3.Contact
+
+                Vous pourrez, dans cette page, exprimer vos critiques, demandes et apréciations au service technique.
+                
+            4.  Recherche
+            
+                Un champ de saisie pour effectuer une recherche qui vous trouvera le ou les différentes fiches sur contenant le mot clef                 recherché dans le détail de ces fiches.
