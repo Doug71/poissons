@@ -224,7 +224,7 @@ a:hover
         font-size: 18px;
     }
 
-.modif:hover, .envoyer:hover
+.modif:hover, .envoyer:hover, .recherche:hover
     {
         color: rgba(22, 96, 255, 0.8);
         background-color: black;
@@ -283,4 +283,31 @@ a:hover
         position: fixed;
         bottom: 0;
         width: 100%;
-	}
+    }
+
+nav
+    {
+        display: inline block;
+    }
+
+#recherche
+    {
+        line-height: 50px;
+        position: absolute;
+        right: 0;
+        margin-right: 90px;
+    }
+
+.recherche
+    {
+        width: 120px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+.searchtext
+    {
+        width: 200px;
+        height: 23px;
+        font-size: 15px;
+    }

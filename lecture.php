@@ -1,8 +1,8 @@
 <?php
 $handle = opendir('./fiches');
-
+$tmp = 0;
 while ($entry = readdir($handle)) {
-    $tmp = 0;
+    
     if ($entry != "." && $entry != "..") {
                         
     $file_handle = fopen("./fiches/$entry","r"); 
@@ -41,16 +41,20 @@ while ($entry = readdir($handle)) {
             else
             {
                 if (!$elements[4]){
-                    echo "<section class='tableau'>
-                    <table border = 1>
-                    <tr>
-                    <th>ID</th>
-                    <th>Nom</th>
-                    <th>Description</th>
-                    <th>Date</th>
-                    <th>Image</th>
-                    </tr>";
-                     echo "<tr>";
+                    if ($tmp == 0)
+                    {
+                        echo "<section class='tableau'>
+                        <table border = 1>
+                        <tr>
+                        <th>ID</th>
+                        <th>Nom</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                        <th>Image</th>
+                        </tr>";
+                        $tmp++;
+                    }
+                    echo "<tr>";
                                 
                                     
                     for ($i = 0; $i < 4; $i++){    
