@@ -13,15 +13,7 @@
         <?php
             include("header.php");
         ?>
-        <section class="tableau">
-            <table border = 1>
-                <tr>
-                    <th>ID</th>
-                    <th>Nom</th>
-                    <th>Description</th>
-                    <th>Date</th>
-                    <th>Image</th>
-                </tr>
+        
                     <?php 
                         include("lecture.php");
                     ?>

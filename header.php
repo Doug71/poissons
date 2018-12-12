@@ -10,5 +10,11 @@
             </ul>
         </li>
         <li><a href="contact.php">CONTACT</a></li>
+    
+    
+    <li id="recherche"><form action="catalogue.php" method="POST">
+        <input type="text" name="recherche">
+        <input type="submit" name="valider" value="Rechercher"
+    </form></li>
     </ul>
 </nav>
