@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-
 <html lang="fr">
+
 	<head>
   		<meta charset="utf-8">
   		<title>Catalogue</title>
@@ -13,7 +13,7 @@
         <?php
             include("header.php");
         ?>        
-        <article class='tableau'>
+        <article id="tableau">
             <?php 
                 include("lecture.php");
             ?>
@@ -24,4 +24,5 @@
 			?>
 		</footer>
     </body>
+    
 </html>

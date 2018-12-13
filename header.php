@@ -12,8 +12,7 @@
         </li>
         <li><a href="contact.php">CONTACT</a></li>
         <li id="recherche"><form action="catalogue.php" method="POST">
-        <input class="searchtext" type="text" name="recherche" required>
-        <input class="recherche" type="submit" name="valider" value="Rechercher">
-    </form></li>
+            <input class="searchtext" type="text" name="recherche" required>
+            <input class="recherche" type="submit" name="valider" value="Rechercher"></form></li>
     </ul>
 </nav>

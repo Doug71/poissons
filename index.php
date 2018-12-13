@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-
 <html lang="fr">
+
 	<head>
-  		<meta charset="utf-8">
-  		<title>Index</title>
+  	<meta charset="utf-8">
+  	<title>Index</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" type="image/png" href="images/favicon.png" /> 
 		<link rel="shortcut icon" href="timages/favicon.png" type="image/x-icon"/>	
-	  </head>
+	</head>
 	  
 	<body>
-        <?php
-            include("header.php");
+    <?php
+      include("header.php");
 		?>
 		<section class="accueil">
 			<p>Bonjour et bienvenu sur notre catalogue en ligne de poissons. Ce catalogue a pour but de repertorier différentes espèces de poissons.</p>
@@ -25,5 +25,5 @@
 				include "copyright.php";
 			?>
 		</footer>
-    </body>
+  </body>
 </html>
