@@ -13,6 +13,7 @@
         <li><a href="contact.php">CONTACT</a></li>
         <li id="recherche"><form action="catalogue.php" method="POST">
         <input class="searchtext" type="text" name="recherche">
-        <input class="recherche" type="submit" name="valider" value="<img class='loupe' src='loupe.png' alt='loupe'>"></form></li>
+        <input class="recherche" type="submit" name="valider" value="Rechercher">
+    </form></li>
     </ul>
 </nav>
