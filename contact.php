@@ -41,5 +41,11 @@
                         </fieldset>';
                 }
         ?>
+        <footer class="copyright">
+			<?php
+				include "copyright.php";
+			?>
+		</footer>
     </body>
+    
 </html>

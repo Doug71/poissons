@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-    <html>
-    
+<html lang="fr">
+
     <head>
         <meta charset="utf-8">
         <title>Création</title>
@@ -88,6 +88,12 @@
                                 </form>
                         </section>';
                     }
-        ?>        
+        ?>
+        <footer class="copyright">
+			<?php
+				include "copyright.php";
+			?>
+		</footer>        
     </body>
+    
  </html>

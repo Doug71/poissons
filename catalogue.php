@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-
 <html lang="fr">
+
 	<head>
   		<meta charset="utf-8">
   		<title>Catalogue</title>
@@ -12,13 +12,17 @@
 	<body>
         <?php
             include("header.php");
-        ?>
-        
-                    <?php 
-                        include("lecture.php");
-                    ?>
-            </table>
-        </section>
+        ?>        
+        <article id="tableau">
+            <?php 
+                include("lecture.php");
+            ?>
+        </article>
+        <footer class="copyright2">
+			<?php
+				include "copyright.php";
+			?>
+		</footer>
     </body>
-
+    
 </html>
