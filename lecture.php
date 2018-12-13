@@ -15,8 +15,8 @@ while ($entry = readdir($handle)) {
                 
                 if ($tmp == 0)
                 {
-                    echo "<section class='tableau'>
-                    <table border = 1>
+                    echo "
+                    <table border = 1 >
                     <tr>
                     <th>ID</th>
                     <th>Nom</th>
@@ -43,7 +43,7 @@ while ($entry = readdir($handle)) {
                 if (!$elements[4]){
                     if ($tmp == 0)
                     {
-                        echo "<section class='tableau'>
+                        echo "
                         <table border = 1>
                         <tr>
                         <th>ID</th>
@@ -74,3 +74,4 @@ if ($tmp == 0)
 
 closedir($handle);
 ?>
+            </table>

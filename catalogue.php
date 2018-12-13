@@ -13,12 +13,11 @@
         <?php
             include("header.php");
         ?>
-        
+            <article class='tableau'>
                     <?php 
                         include("lecture.php");
                     ?>
-            </table>
-        </section>
+            </article>
     </body>
 
 </html>
