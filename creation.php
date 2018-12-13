@@ -88,6 +88,11 @@
                                 </form>
                         </section>';
                     }
-        ?>        
+        ?>
+        <footer class="copyright">
+			<?php
+				include "copyright.php";
+			?>
+		</footer>        
     </body>
  </html>

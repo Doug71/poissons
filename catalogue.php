@@ -12,12 +12,16 @@
 	<body>
         <?php
             include("header.php");
-        ?>
-            <article class='tableau'>
-                    <?php 
-                        include("lecture.php");
-                    ?>
-            </article>
+        ?>        
+        <article class='tableau'>
+            <?php 
+                include("lecture.php");
+            ?>
+        </article>
+        <footer class="copyright2">
+			<?php
+				include "copyright.php";
+			?>
+		</footer>
     </body>
-
 </html>
