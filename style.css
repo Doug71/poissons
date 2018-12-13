@@ -10,6 +10,7 @@ body
         font-family: 'Sérif';
         margin: 0px;
         background: url("poisson.jpg") fixed no-repeat;
+        background-size: 100%;
         height: 100%;
         width: 100%;
     }
@@ -17,8 +18,8 @@ body
 article
     {
         width: 100%;
-        height: 570px;
-        overflow-y: scroll;
+        height: 80%;
+        /*overflow-y: scroll;*/
     }
 
 header 
